@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RightHalfPyramid {
+public class Solid_RightHalf_Pyramid {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.print("Enter number of rows: ");
