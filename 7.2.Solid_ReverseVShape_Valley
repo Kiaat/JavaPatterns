@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Solid_ReverseVShape_Valley {
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		System.out.print("Enter number of rows: ");
+		Scanner sr = new Scanner(System.in);
+		int n = sr.nextInt();
+		int space = 0;
+
+		/* run loop (parent loop) till number of rows */
+		for (int i = n; i > 0; i--) {
+			/* print first set of stars */
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			for (int j = 0; j < space; j++) {
+				System.out.print(" ");
+			}
+			/* print second set of stars */
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
+			space += 2;
+		}
+	}
+}
+
+Enter number of rows: 8
+****************
+*******  *******
+******    ******
+*****      *****
+****        ****
+***          ***
+**            **
+*              *
