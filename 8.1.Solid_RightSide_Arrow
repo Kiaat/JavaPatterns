@@ -1,4 +1,4 @@
-public class Patterns {
+public class Solid_RightSide_Arrow {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.print("Enter number of rows: ");
