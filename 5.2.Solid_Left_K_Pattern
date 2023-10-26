@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Left_K {
+public class Solid_Left_K_Pattern {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.print("Enter number of rows: ");
